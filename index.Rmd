@@ -2,6 +2,7 @@
 title: "My awesome website"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
@@ -30,10 +31,31 @@ Let's link to useful tools for data science
  
 
 ## Local image  
-Here is my picture
+
+Here is my picture  
+ <img src = "image/deskscreen.png" style = "width:75%"> 
+ 
 ![](image/deskscreen.png)
   
 ## Link to page within to site
 
-[About me](about.html)
+[About me](about.html)  
+
+
+## Quarterly Results {.tabset}
+
+### By Product  
+
+This is my first tab and I can do stuff
+
+
+### By Region  
+
+This is my second tab and it does other stuff
+
+## This is a new section
+
+and it is really great
+
+https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style
  
